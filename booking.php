@@ -35,7 +35,7 @@
             <form action="check.php" method = "post" class="loginform" id = "form2" onclick= "calc()">
                 <input type="date" class="inp" name = "date"  required = "required">
                 <br>
-                <select class = "inp" style = "text-align:center" name = "venue">
+                <select class = "inp" style = "text-align:center" name = "venue" required = "required">
                     <option selected>Choose a venue</option>
                     <option>PVR Cinemas : Crown Plaza, Sector-15</option>
                     <option>SRS Cinemas : Station 1 ELDECO, Sector-12</option>
@@ -45,7 +45,7 @@
                     <option>Wave Cinemas : Wave Mall, Sector-18</option>
                 </select>
                 <br>
-                <input type="number" class="inp" name = "seats"  required = "required" placeholder="Choose number of seats" value = 1  >
+                <input type="number" class="inp" name = "seats"  required = "required" placeholder="Choose number of seats" value = 1  required = "required">
                 <br>
                 <input type = "hidden" name = "amount" id = "data">
                 <button class="btn user" style = "padding:5px" onclick = "load()">Book : amount-> &#8377 <label id = "cost2">0</label></button>
