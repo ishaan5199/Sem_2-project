@@ -60,5 +60,6 @@
     <?php
         $_SESSION['location'] = $_SERVER['PHP_SELF'];
     ?>
+    <!--hello there-->
 </body>
 </html>
